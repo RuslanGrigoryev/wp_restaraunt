@@ -28,7 +28,7 @@
         </div><!-- #footer-widgets -->	
 	
 		<div class="site-info">
-			<a href="<?php echo esc_url( admin_url() ); ?>">Admin |</a> <a href="<?php echo esc_url( __( 'http://www.designpromote.co.uk/', 'restaurant' ) ); ?>" title="<?php esc_attr_e( 'Theme design by Designpromote.co.uk', 'restaurant' ); ?>"><?php printf( __( 'Design by %s', 'restaurant' ), 'Designpromote.co.uk' ); ?></a>
+			<a href="<?php echo esc_url( admin_url() ); ?>">Admin</a> 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
