@@ -524,7 +524,6 @@ a:hover {
 .site {
 	padding: 0 24px;
 	padding: 0 1.714285714rem;
-	background-color: #fff;
 }
 .site-content {
 	margin: 24px 0 0;
@@ -1613,7 +1612,7 @@ img#wpstats {
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
 	body {
-		background-color: #e6e6e6;
+		
 	}
 	body .site {
 		padding: 0 40px;

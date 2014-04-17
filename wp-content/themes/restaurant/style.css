@@ -17,6 +17,9 @@ Restaurant theme, photos/images included are licensed under the GPL. jQuery Flex
 @import url("../twentytwelve/style.css");
 
 /* =Basic structure */
+body {
+	background: url(images/bg-main.jpg);
+}
 a {
 	outline: none;
 	color: #660000;
@@ -100,7 +103,7 @@ footer .site-info {
 	/*float:right;
 	display:none;
 	margin-top:-50px;*/
-	color: #515151;
+	color: #000;
 	line-height: 1.4;
 	text-align: center;
 }
@@ -296,9 +299,6 @@ footer .site-info{
 
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
-	body {
-		background-color: #eee; /*#e6e6e6*/
-	}
 	body .site {
 		padding: 0; 
 		margin-top: 0; /*48px;*/
