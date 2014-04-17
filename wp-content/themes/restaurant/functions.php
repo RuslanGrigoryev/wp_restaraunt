@@ -33,10 +33,6 @@ function restaurant_enqueue() {
 	//wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", false, null);
 	if( !wp_script_is( 'jquery' ) ) wp_enqueue_script('jquery');
 	
-	if( is_home() || is_front_page() ) {
-		wp_enqueue_style( 'flexslider.css', get_stylesheet_directory_uri() . '/flexslider.css' );
-		wp_enqueue_script( 'flexslider.js', get_stylesheet_directory_uri() . '/jquery.flexslider-min.js', array('jquery') );
-	}
 }
 
 add_action( 'wp_head', 'restaurant_flexslider' );
