@@ -18,7 +18,11 @@ Restaurant theme, photos/images included are licensed under the GPL. jQuery Flex
 
 /* =Basic structure */
 body {
-	background: url(images/bg-main.jpg);
+	background: url(images/bg-main.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 }
 a {
 	outline: none;
@@ -320,7 +324,7 @@ footer .site-info{
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #660000;
+		color: #fff;
 	}
 	.main-navigation .current-menu-item > a,
 	.main-navigation .current-menu-ancestor > a,
