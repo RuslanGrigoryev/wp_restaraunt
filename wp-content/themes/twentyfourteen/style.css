@@ -806,6 +806,7 @@ span + .edit-link:before,
 	background-color: #fff;
 	max-width: 1260px;
 	position: relative;
+	margin: 0 auto;
 }
 
 .main-content {
@@ -830,7 +831,6 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #000;
 	max-width: 1260px;
 	position: relative;
 	width: 100%;
@@ -928,7 +928,6 @@ span + .edit-link:before,
 }
 
 .site-navigation a {
-	color: #fff;
 	display: block;
 	text-transform: uppercase;
 }
@@ -2690,7 +2689,6 @@ a.post-thumbnail:hover {
 }
 
 .site-footer {
-	background-color: #000;
 	font-size: 12px;
 	position: relative;
 	z-index: 3;
@@ -3580,18 +3578,7 @@ a.post-thumbnail:hover {
 		width: 29.04761904%;
 	}
 
-	.site:before {
-		background-color: #000;
-		content: "";
-		display: block;
-		height: 100%;
-		min-height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 182px;
-		z-index: 2;
-	}
+	
 
 	#secondary {
 		background-color: transparent;
