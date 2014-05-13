@@ -719,5 +719,5 @@ function restaurant_customize_css() {
 <?php
 }
 add_action( 'wp_head', 'restaurant_customize_css');
- 
+add_theme_support( 'post-thumbnails' );
 ?>

@@ -24,11 +24,7 @@ get_header(); ?>
 		get_template_part( 'featured-content' );
 	}
 ?>
-	<?php 
-	if ( is_front_page() ) {
-	    echo do_shortcode("[metaslider id=15]"); 
-	}
-	?>
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
